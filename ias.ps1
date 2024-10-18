@@ -4,7 +4,7 @@ $ErrorActionPreference = "Stop"
 # Enable TLSv1.2 for compatibility with older clients
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 
-$DownloadURL = 'https://raw.githubusercontent.com/Darkhaxxor005/host/refs/heads/main/IAS.cmd'
+$DownloadURL = 'https://raw.githubusercontent.com/Darkhaxxor005/IDM-Trial-/refs/heads/main/IAS.cmd'
 $DownloadURL2 = 'https://pastebin.com/raw/nTmqjawj'
 
 $rand = Get-Random -Maximum 99999999
